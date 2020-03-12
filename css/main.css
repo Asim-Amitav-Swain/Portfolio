@@ -29,6 +29,39 @@ strong{
     justify-content: space-between;
 }
 
+.intro__greeting .wave{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.intro__greeting .wave-hand{
+    background-image: url(../assets/images/waving-hand.png);
+}
+
+.intro__greeting .wave-hand:hover{
+    animation: wave 1s linear forwards;
+    transform-origin: bottom bottom;
+}
+
+@keyframes wave{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-20deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 .intro__contact{
     font-size: 1.4rem;
 }
@@ -258,6 +291,30 @@ a.anchor.resume_link:after{
 
 .inspiration{
     color: #fff;
+}
+
+a.anchor-link{
+    display: none;
+    width: 40px;
+    height: 40px;
+
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+a.anchor-link.show{
+    display: inline-block;
+}
+
+a.anchor-link img{
+    transition: transform .2s linear;
+}
+
+a.anchor-link img:hover{
+    transform: translateY(-10px);
 }
 
 /* Media Queries for Mobile Devices */

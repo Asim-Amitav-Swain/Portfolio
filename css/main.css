@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.7;
+
+    background-color: rgb(23, 28, 40);
+}
+
+strong{
+    color: #fff;
+}
+
+.intro{
+    font-size: 2.5rem;
+    min-height: calc(90vh);
+    padding: 6rem;
+    padding-bottom: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro__contact{
+    font-size: 1.4rem;
+}
+
+.intro__contact a{
+    text-decoration: none;
+    color: #fff;
+    box-shadow: rgb(0, 123, 255) 0px -3px 0px inset;
+}
+
+.intro__contact a:hover{
+    box-shadow: rgb(0, 123, 255) 0px -33px 0px 0px inset;
+    transition: all 0.4s;
+}
+
+.background{
+    padding: 6rem 11rem;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-gap: 5rem;
+}
+
+.heading{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #007BFF;
+    text-align: right;
+}
+
+.desc{
+    font-size: 1rem;
+    color: #AFBFAF;
+}
+
+.desc a{
+    color : #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.desc>p{
+    margin-bottom: 2rem;
+}
+
+.skills{
+    padding: 6rem 11rem;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-gap: 5rem;
+}
+
+.skills__desc{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 4rem;
+}
+
+
+.skills__desc__category__heading{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.skills__desc__category ul{
+    list-style: none;
+}
+
+.skills__desc__category ul li{
+    font-size: .9rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+}
+
+.experience{
+    padding: 6rem 11rem;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-gap: 5rem;
+}
+
+.job{
+    margin-bottom: 2rem;
+}
+
+.job__desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job__duration{
+    font-size: 14px;
+    color: #e7e7e7;
+}
+
+.job__position{
+    color: #afafbf;
+    font-size: 14px;
+}
+
+.anchor{
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a.anchor:after{
+    width: 100%;
+    content: " ";
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    border-bottom: 2px solid #fff;
+
+    opacity: 0;
+    transform: translateY(6px);
+    transition: all 1s;
+}
+
+a.anchor:hover::after{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.resume_link{
+    font-size: 1.2rem;
+    grid-column: 2/-1;
+}
+
+a.anchor.resume_link:after{
+    content: "";
+    width: 0;
+}
+
+.projects{
+    padding: 6rem 11rem;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-gap: 5rem;
+}
+
+.project{
+    margin-bottom: 4rem;
+}
+
+.project__title{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    cursor: pointer;
+}
+
+.project__desc{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.project__tech ul{
+    list-style: none;
+}
+
+.project__tech>ul>li{
+    font-size: 0.8rem;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid #007BFF;
+    padding: 0.1rem 0.8rem;
+    border-radius: 4px;
+    color: #007BFF;
+}
+
+.footer{
+    padding: 4rem 6rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-link{
+    color: #007bff;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer__developer{
+    flex-basis: 200px;
+}
+
+.toggler{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#switch{
+    display: none;
+}
+
+.toggler__wrapper{
+    width: 40px;
+    height: 20px;
+}
+
+#toggle{
+    width: 100px;
+    height: 20px;
+}
+
+#toggle::after{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+
+    background-color: red;
+}
+
+.inspiration{
+    color: #fff;
+}

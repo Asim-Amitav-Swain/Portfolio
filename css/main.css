@@ -21,7 +21,7 @@ strong{
 .intro{
     font-size: 2.5rem;
     min-height: calc(90vh);
-    padding: 6rem;
+    padding: 6rem 3rem;
     padding-bottom: 0px;
 
     display: flex;
@@ -78,10 +78,10 @@ strong{
 }
 
 .background{
-    padding: 6rem 11rem;
+    padding: 6rem 3rem;
     padding-bottom: 0px;
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 130px auto;
     grid-gap: 5rem;
 }
 
@@ -110,10 +110,10 @@ strong{
 }
 
 .skills{
-    padding: 6rem 11rem;
+    padding: 6rem 3rem;
     padding-bottom: 0px;
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 130px auto;
     grid-gap: 5rem;
 }
 
@@ -142,10 +142,10 @@ strong{
 }
 
 .experience{
-    padding: 6rem 11rem;
+    padding: 6rem 3rem;
     padding-bottom: 0px;
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 130px auto;
     grid-gap: 5rem;
 }
 
@@ -161,11 +161,11 @@ strong{
 
 .job__duration{
     font-size: 14px;
-    color: #e7e7e7;
+    color: #000;
 }
 
 .job__position{
-    color: #afafbf;
+    color: inherit;
     font-size: 14px;
 }
 
@@ -205,10 +205,10 @@ a.anchor.resume_link:after{
 }
 
 .projects{
-    padding: 6rem 11rem;
+    padding: 6rem 3rem;
     padding-bottom: 0px;
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 130px auto;
     grid-gap: 5rem;
 }
 

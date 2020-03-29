@@ -443,6 +443,11 @@ a.anchor-link img:hover {
     clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%);
   }
 
+  .project__tech > ul > li{
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
   .job__desc {
     flex-direction: column;
     align-items: flex-start;

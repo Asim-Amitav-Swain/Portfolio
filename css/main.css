@@ -161,7 +161,7 @@ strong{
 
 .job__duration{
     font-size: 14px;
-    color: #000;
+    color: #444452;
 }
 
 .job__position{
@@ -171,7 +171,7 @@ strong{
 
 .anchor{
     position: relative;
-    color: #fff;
+    color: #000;
     font-weight: 700;
     text-decoration: none;
 }
@@ -319,7 +319,64 @@ a.anchor-link img:hover{
 
 /* Media Queries for Mobile Devices */
 
-@media(max-width : 40rem){
+@media(max-width : 768px){
+    .heading {
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .intro,.background,.skills,.experience,.projects,.footer{
+        padding: 2rem;
+        grid-gap: 2rem;
+    }
+
+    .intro{
+        padding: 4rem 2rem;
+        width: 100%;
+        font-size: 2rem;
+        min-height: 30rem;
+    }
+
+    .intro__contact{
+        font-size: 1rem;
+    }
+    .desc{
+        padding-left: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .skills__desc__category ul li,.job__duration{
+        font-size: 1.1rem;
+    }
+
+    .background,.skills,.experience,.projects{
+        grid-template-columns: initial;
+    }
+    
+    .skills__desc{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .job__desc{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        margin-top: initial;
+    }
+
+    .footer__developer{
+        flex-basis: 50px;
+    }
+    .social-link{
+        margin-right: 1rem;
+    }
+}
+
+@media(max-width : 480px){
     .heading {
         text-align: left;
     }

@@ -89,7 +89,7 @@ strong {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: #007bff;
+  color: #056ddc;
   text-align: right;
 }
 
@@ -235,10 +235,10 @@ a.anchor.resume_link:after {
   font-size: 0.8rem;
   display: inline-block;
   text-transform: uppercase;
-  border: 1px solid #007bff;
+  border: 1px solid #056ddc;
   padding: 0.1rem 0.8rem;
   border-radius: 4px;
-  color: #007bff;
+  color: #056ddc;
 }
 
 .footer {
@@ -250,7 +250,7 @@ a.anchor.resume_link:after {
 }
 
 .social-link {
-  color: #007bff;
+  color: #056ddc;
   margin-right: 3rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -404,7 +404,7 @@ a.anchor-link img:hover {
     width: 100%;
     font-size: 1.6rem;
 
-    background-color: #007bff;
+    background-color: #056ddc;
     color: #fff;
     clip-path: polygon(0 12%, 100% 0, 100% 88%, 0 100%);
   }
@@ -424,7 +424,7 @@ a.anchor-link img:hover {
   }
 
   .skills {
-    background-color: #007bff;
+    background-color: #056ddc;
     color: #fff;
     clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 96%);
   }
@@ -438,7 +438,7 @@ a.anchor-link img:hover {
   }
 
   .projects{
-    background-color: #007bff;
+    background-color: #056ddc;
     color: #fff;
     clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%);
   }

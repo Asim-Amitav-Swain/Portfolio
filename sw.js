@@ -2,9 +2,9 @@ var version = 'portfolio';
 
 var cachedAssets = [
     '/',
-    'index.html',
-    'assets/images/goup.png',
-    'assets/images/waving-hand.png'
+    '/Porfolio/index.html',
+    '/Portfolio/assets/images/goup.png',
+    '/Portfolio/assets/images/waving-hand.png'
 ];
 
 self.addEventListener('install',e => {

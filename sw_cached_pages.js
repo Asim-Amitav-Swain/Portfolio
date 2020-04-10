@@ -1,4 +1,4 @@
-const cacheName = 'v1';
+const cacheName = 'v2';
 
 const cacheAssets = [
     'index.html',
@@ -9,19 +9,19 @@ const cacheAssets = [
 
 // Call Install Event
 self.addEventListener("install", e => {
-  console.log("Service Worker Installed");
+    console.log("Service Worker Installed");
 
-  e.waitUntil(
-    caches
-    .open(cacheName)
-    .then(cache => {
-        console.log('Service Worker : Installed');
-        cache.addAll(cacheAssets)
-    })
-  )
-  .then(() => self.skipWaiting);
+    e.waitUntil(
+        caches
+            .open(cacheName)
+            .then(cache => {
+                console.log('Service Worker : Installed');
+                return cache.addAll(cacheAssets)
+            })
+            .then(() => self.skipWaiting())
+  );
 });
 
-self.addEventListener("activate", () => {
-  console.log("Service Worker Activated");
+self.addEventListener("activate", e => {
+    console.log("Service Worker Activated");
 });

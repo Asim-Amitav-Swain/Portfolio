@@ -320,6 +320,17 @@
     <script defer>
         document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector("a.anchor-link"),o=document.querySelector(".intro");e.addEventListener("click",function(e){e.preventDefault(),window.scroll({behavior:"smooth",left:0,top:o.offsetTop})}),document.addEventListener("scroll",function(){window.scrollY>o.offsetHeight?e.classList.add("show"):e.classList.remove("show")})});
     </script>
+
+    <script>
+        if('ServiceWorker' in navigator){
+            window.addEventListener('load',()=>{
+                navigator.serviceWorker
+                .register('assets/scripts/sw_cached_pages.js')
+                .then(reg => console.log(`Service Worker Registered : `+reg))
+                .catch(err => console.log(err))
+            })
+        }
+    </script>
 </body>
 
 </html>

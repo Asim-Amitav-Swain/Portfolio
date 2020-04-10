@@ -1,0 +1,10 @@
+{
+    "short_name": "Ankit Sharma Portfolio",
+    "name": "Ankit Sharma Portfolio",
+    "description": "Portfolio of Ankit Sharma, a Web Developer",
+    "start_url": "https://ankitsharmaongithub.github.io/Portfolio/",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#056ddc"
+  }

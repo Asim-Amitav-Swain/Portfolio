@@ -412,6 +412,10 @@ a.anchor-link img:hover {
   .intro__contact {
     font-size: 1rem;
   }
+  .intro__contact a{
+    color: #fff;
+    font-weight: 700;
+  }
   .desc {
     padding-left: 2rem;
   }

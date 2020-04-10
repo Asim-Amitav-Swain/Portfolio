@@ -14,3 +14,18 @@ self.addEventListener('install',e => {
         .catch(err => console.log('Error'))
     );
 })
+
+
+self.addEventListener('fetch',req => {
+    req.respondWith(
+        caches.match(req.request)
+        .then(resp => {
+            return resp || fetch(req.request).then(response => {
+                return caches.open(version).then(cache => {
+                    cache.put(req.request,response.clone());
+                    return response;
+                })
+            })
+        })
+    )    
+})

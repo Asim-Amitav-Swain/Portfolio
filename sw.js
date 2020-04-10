@@ -1,8 +1,8 @@
 var version = 'portfolio';
 
 var cachedAssets = [
-    '/Porfolio/',
-    '/Porfolio/index.html',
+    '/Portfolio/',
+    '/Portfolio/index.html',
     '/Portfolio/assets/images/goup.png',
     '/Portfolio/assets/images/waving-hand.png'
 ];

@@ -321,7 +321,8 @@
         document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector("a.anchor-link"),o=document.querySelector(".intro");e.addEventListener("click",function(e){e.preventDefault(),window.scroll({behavior:"smooth",left:0,top:o.offsetTop})}),document.addEventListener("scroll",function(){window.scrollY>o.offsetHeight?e.classList.add("show"):e.classList.remove("show")})});
 
         if('serviceWorker' in navigator){
-            navigator.serviceWorker.register('/Portfolio/sw.js', { scope : '/Portfolio/'})
+            // navigator.serviceWorker.register('/Portfolio/sw.js', { scope : '/Portfolio/'})
+            navigator.serviceWorker.register('/sw.js')
             .then(reg => {
                 if(reg.installing){
                     console.log('Installing');

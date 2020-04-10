@@ -21,6 +21,9 @@ self.addEventListener('fetch',req => {
         caches.match(req.request)
         .then(resp => {
             return resp || fetch(req.request).then(response => {
+                if(!response || response.status !== 200 || response.type !== 'basic') {
+                    return response;
+                  }
                 return caches.open(version).then(cache => {
                     cache.put(req.request,response.clone());
                     return response;

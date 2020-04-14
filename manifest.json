@@ -1,7 +1,44 @@
 {
-    "short_name": "Ankit Sharma Portfolio",
-    "name": "Ankit Sharma Portfolio",
+    "short_name": "Ankit Sharma",
+    "name": "Ankit Sharma",
     "description": "Portfolio of Ankit Sharma, a Web Developer",
+    "icons": [
+      {
+        "src": "assets/images/logo/Logo 48x48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "assets/images/logo/Logo 72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "assets/images/logo/Logo 96x96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "assets/images/logo/Logo 144x144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "assets/images/logo/Logo 192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "assets/images/logo/Logo 256 x 256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "assets/images/logo/Logo 512 x 512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
     "start_url": "https://ankitsharmaongithub.github.io/Portfolio/",
     "background_color": "#fff",
     "display": "standalone",

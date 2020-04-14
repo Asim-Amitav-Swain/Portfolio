@@ -3,6 +3,7 @@ var version = 'portfolio';
 var cachedAssets = [
     '/Portfolio/',
     '/Portfolio/index.html',
+    '/Portfolio/assets/images/favicon.png',
     '/Portfolio/assets/images/goup.png',
     '/Portfolio/assets/images/waving-hand.png'
 ];

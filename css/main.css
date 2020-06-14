@@ -96,6 +96,7 @@ strong {
 
 .background {
   padding: 6rem 3rem;
+  padding-left: 15rem;
   padding-bottom: 0px;
   display: grid;
   grid-template-columns: 130px auto;
@@ -128,6 +129,7 @@ strong {
 
 .skills {
   padding: 6rem 3rem;
+  padding-left: 15rem;
   padding-bottom: 0px;
   display: grid;
   grid-template-columns: 130px auto;
@@ -159,6 +161,7 @@ strong {
 
 .experience {
   padding: 6rem 3rem;
+  padding-left: 15rem;
   padding-bottom: 0px;
   display: grid;
   grid-template-columns: 130px auto;
@@ -222,6 +225,7 @@ a.anchor.resume_link:after {
 
 .projects {
   padding: 6rem 3rem;
+  padding-left: 15rem;
   padding-bottom: 0px;
   display: grid;
   grid-template-columns: 130px auto;

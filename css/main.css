@@ -18,7 +18,12 @@ strong {
   color: #000;
 }
 
-.intro {
+.intro{
+  display: flex;
+  align-items: center;
+}
+
+.intro__desc {
   font-size: 2.5rem;
   min-height: calc(90vh);
   padding: 6rem 3rem;
@@ -27,6 +32,14 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.inro__img{
+  max-width: 500px;
+}
+
+.inro__img>img{
+  max-width: 100%;
 }
 
 .intro__greeting .wave {
@@ -60,6 +73,10 @@ strong {
   100% {
     transform: rotate(0deg);
   }
+}
+
+.intro__heading{
+  max-width: 700px;
 }
 
 .intro__contact {

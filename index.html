@@ -5,21 +5,499 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ankit Sharma | Web Developer</title>
-    <meta name="description" content="Ankit Sharma. Web Developer."> 
+    <meta name="description" content="Ankit Sharma. Web Developer.">
     <meta name="keywords" content="design, development, web, ankitsharma, ankit, sharma,css, javascript, india">
-    <meta name="theme-color" content="#056ddc"/>
+    <meta name="theme-color" content="#056ddc" />
 
     <link rel="shortcut icon" href="assets/images/favicon.png" />
     <link rel="apple-touch-icon" href="assets/images/logo/Logo 192x192.png">
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com/">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"  media="print" onload="this.media='all'"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" media="print"
+        onload="this.media='all'" />
 
     <link rel="manifest" href="manifest.json">
-    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
     <style>
-        *{box-sizing:border-box;margin:0;padding:0}body{color:#444452;font-family:"Montserrat",sans-serif;font-size:.9rem;font-weight:400;line-height:1.7;background-color:#fff}strong{color:#000}.intro{font-size:2.5rem;min-height:calc(90vh);padding:6rem 3rem;padding-bottom:0;display:flex;flex-direction:column;justify-content:space-between}.intro__greeting .wave{display:inline-block;width:32px;height:32px}.intro__greeting .wave-hand{background-image:url(assets/images/waving-hand.png)}.intro__greeting .wave-hand:hover{animation:wave 1s linear forwards;transform-origin:bottom bottom}@keyframes wave{0%{transform:rotate(0deg)}25%{transform:rotate(-20deg)}50%{transform:rotate(0deg)}75%{transform:rotate(20deg)}100%{transform:rotate(0deg)}}.intro__contact{font-size:1.4rem}.intro__contact a{text-decoration:none;color:#000;box-shadow:#007bff 0 -3px 0 inset}.intro__contact a:hover{box-shadow:#007bff 0 -33px 0 0 inset;transition:all .4s}.background{padding:6rem 3rem;padding-bottom:0;display:grid;grid-template-columns:130px auto;grid-gap:5rem}.heading{font-size:1rem;text-transform:uppercase;font-weight:700;color:#056ddc;text-align:right}.desc{font-size:1rem;color:inherit}.desc a{color:#000;text-decoration:none;text-transform:capitalize;font-weight:700}.desc > p{margin-bottom:2rem}.skills{padding:6rem 3rem;padding-bottom:0;display:grid;grid-template-columns:130px auto;grid-gap:5rem}.skills__desc{display:grid;grid-template-columns:repeat(4,1fr);grid-gap:4rem}.skills__desc__category__heading{text-transform:uppercase;color:#000;margin-bottom:1rem;font-weight:700}.skills__desc__category ul{list-style:none}.skills__desc__category ul li{font-size:.9rem;margin-bottom:.8rem;line-height:1.2}.experience{padding:6rem 3rem;padding-bottom:0;display:grid;grid-template-columns:130px auto;grid-gap:5rem}.job{margin-bottom:2rem}.job__desc{display:flex;justify-content:space-between;align-items:center}.job__duration{font-size:14px;color:#444452}.job__position{color:inherit;font-size:14px}.anchor{position:relative;color:#000;font-weight:700;text-decoration:none}a.anchor:after{width:100%;content:" ";position:absolute;bottom:0;left:0;border-bottom:2px solid #fff;opacity:0;transform:translateY(6px);transition:all 1s}a.anchor:hover::after{opacity:1;transform:translateY(0)}.resume_link{font-size:1.2rem;grid-column:2/-1}a.anchor.resume_link:after{content:"";width:0}.projects{padding:6rem 3rem;padding-bottom:0;display:grid;grid-template-columns:130px auto;grid-gap:5rem}.project{margin-bottom:4rem}.project__title{color:#fff;font-weight:700;margin-bottom:.6rem;cursor:pointer}.project__desc{font-size:.9rem;margin-bottom:1rem}.project__tech ul{list-style:none}.project__tech > ul > li{font-size:.8rem;display:inline-block;text-transform:uppercase;border:1px solid #056ddc;padding:.1rem .8rem;border-radius:4px;color:#056ddc}.footer{padding:4rem 6rem;margin-top:8rem;display:flex;justify-content:space-between;align-items:center}.social-link{color:#056ddc;margin-right:3rem;text-transform:uppercase;letter-spacing:1px}.footer__developer{flex-basis:200px}.toggler{position:absolute;top:0;right:0}#switch{display:none}.toggler__wrapper{width:40px;height:20px}#toggle{width:100px;height:20px}#toggle::after{content:" ";width:100%;height:100%;background-color:red}.inspiration{color:#000}a.anchor-link{display:none;width:40px;height:40px;position:fixed;bottom:20px;right:10px;transition:all .5s;cursor:pointer}a.anchor-link.show{display:inline-block}a.anchor-link img{transition:transform .2s linear}a.anchor-link img:hover{transform:translateY(-10px)}@media (max-width: 768px){.heading{text-align:left;font-size:1.5rem}.intro,.background,.skills,.experience,.projects,.footer{padding:2rem;grid-gap:2rem}.intro{padding:4rem 2rem;width:100%;font-size:2rem;min-height:30rem}.intro__contact{font-size:1rem}.desc{padding-left:2rem;font-size:1.2rem}.skills__desc__category ul li,.job__duration{font-size:1.1rem}.background,.skills,.experience,.projects{grid-template-columns:initial}.skills__desc{grid-template-columns:repeat(3,1fr)}.job__desc{flex-direction:column;align-items:flex-start}.footer{flex-direction:column;text-align:center;margin-top:initial}.footer__developer{flex-basis:50px}.social-link{margin-right:1rem}}@media (max-width: 480px){.heading{text-align:left}.intro,.background,.skills,.experience,.projects,.footer{padding:2rem;grid-gap:2rem}.intro{padding:4rem 2rem;width:100%;font-size:1.6rem;background-color:#056ddc;color:#fff;clip-path:polygon(0 12%,100% 0,100% 88%,0 100%)}.intro__contact{font-size:1rem}.intro__contact a{color:#fff;font-weight:700}.desc{padding-left:2rem}.background,.skills,.experience,.projects{grid-template-columns:initial}.skills{background-color:#056ddc;color:#fff;clip-path:polygon(0 0,100% 4%,100% 100%,0 96%)}.skills__heading,.projects__heading{color:#fff}.skills__desc{grid-template-columns:1fr}.projects{background-color:#056ddc;color:#fff;clip-path:polygon(0 0,100% 2%,100% 100%,0 98%)}.project__tech > ul > li{border:1px solid #fff;color:#fff}.job__desc{flex-direction:column;align-items:flex-start}.footer{flex-direction:column;text-align:center}.footer__developer{flex-basis:50px}.social-link{margin-right:1rem}}
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            color: #444452;
+            font-family: "Montserrat", sans-serif;
+            font-size: .9rem;
+            font-weight: 400;
+            line-height: 1.7;
+            background-color: #fff
+        }
+
+        strong {
+            color: #000
+        }
+
+        .intro {
+            font-size: 2.5rem;
+            min-height: calc(90vh);
+            padding: 6rem 3rem;
+            padding-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between
+        }
+
+        .intro__greeting .wave {
+            display: inline-block;
+            width: 32px;
+            height: 32px
+        }
+
+        .intro__greeting .wave-hand {
+            background-image: url(assets/images/waving-hand.png)
+        }
+
+        .intro__greeting .wave-hand:hover {
+            animation: wave 1s linear forwards;
+            transform-origin: bottom bottom
+        }
+
+        @keyframes wave {
+            0% {
+                transform: rotate(0deg)
+            }
+
+            25% {
+                transform: rotate(-20deg)
+            }
+
+            50% {
+                transform: rotate(0deg)
+            }
+
+            75% {
+                transform: rotate(20deg)
+            }
+
+            100% {
+                transform: rotate(0deg)
+            }
+        }
+
+        .intro__contact {
+            font-size: 1.4rem
+        }
+
+        .intro__contact a {
+            text-decoration: none;
+            color: #000;
+            box-shadow: #007bff 0 -3px 0 inset
+        }
+
+        .intro__contact a:hover {
+            box-shadow: #007bff 0 -33px 0 0 inset;
+            transition: all .4s
+        }
+
+        .background {
+            padding: 6rem 3rem;
+            padding-bottom: 0;
+            display: grid;
+            grid-template-columns: 130px auto;
+            grid-gap: 5rem
+        }
+
+        .heading {
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #056ddc;
+            text-align: right
+        }
+
+        .desc {
+            font-size: 1rem;
+            color: inherit
+        }
+
+        .desc a {
+            color: #000;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-weight: 700
+        }
+
+        .desc>p {
+            margin-bottom: 2rem
+        }
+
+        .skills {
+            padding: 6rem 3rem;
+            padding-bottom: 0;
+            display: grid;
+            grid-template-columns: 130px auto;
+            grid-gap: 5rem
+        }
+
+        .skills__desc {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 4rem
+        }
+
+        .skills__desc__category__heading {
+            text-transform: uppercase;
+            color: #000;
+            margin-bottom: 1rem;
+            font-weight: 700
+        }
+
+        .skills__desc__category ul {
+            list-style: none
+        }
+
+        .skills__desc__category ul li {
+            font-size: .9rem;
+            margin-bottom: .8rem;
+            line-height: 1.2
+        }
+
+        .experience {
+            padding: 6rem 3rem;
+            padding-bottom: 0;
+            display: grid;
+            grid-template-columns: 130px auto;
+            grid-gap: 5rem
+        }
+
+        .job {
+            margin-bottom: 2rem
+        }
+
+        .job__desc {
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+
+        .job__duration {
+            font-size: 14px;
+            color: #444452
+        }
+
+        .job__position {
+            color: inherit;
+            font-size: 14px
+        }
+
+        .anchor {
+            position: relative;
+            color: #000;
+            font-weight: 700;
+            text-decoration: none
+        }
+
+        a.anchor:after {
+            width: 100%;
+            content: " ";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-bottom: 2px solid #fff;
+            opacity: 0;
+            transform: translateY(6px);
+            transition: all 1s
+        }
+
+        a.anchor:hover::after {
+            opacity: 1;
+            transform: translateY(0)
+        }
+
+        .resume_link {
+            font-size: 1.2rem;
+            grid-column: 2/-1
+        }
+
+        a.anchor.resume_link:after {
+            content: "";
+            width: 0
+        }
+
+        .projects {
+            padding: 6rem 3rem;
+            padding-bottom: 0;
+            display: grid;
+            grid-template-columns: 130px auto;
+            grid-gap: 5rem
+        }
+
+        .project {
+            margin-bottom: 4rem
+        }
+
+        .project__title {
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: .6rem;
+            cursor: pointer
+        }
+
+        .project__desc {
+            font-size: .9rem;
+            margin-bottom: 1rem
+        }
+
+        .project__tech ul {
+            list-style: none
+        }
+
+        .project__tech>ul>li {
+            font-size: .8rem;
+            display: inline-block;
+            text-transform: uppercase;
+            border: 1px solid #056ddc;
+            padding: .1rem .8rem;
+            border-radius: 4px;
+            color: #056ddc
+        }
+
+        .footer {
+            padding: 4rem 6rem;
+            margin-top: 8rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+
+        .social-link {
+            color: #056ddc;
+            margin-right: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 1px
+        }
+
+        .footer__developer {
+            flex-basis: 200px
+        }
+
+        .toggler {
+            position: absolute;
+            top: 0;
+            right: 0
+        }
+
+        #switch {
+            display: none
+        }
+
+        .toggler__wrapper {
+            width: 40px;
+            height: 20px
+        }
+
+        #toggle {
+            width: 100px;
+            height: 20px
+        }
+
+        #toggle::after {
+            content: " ";
+            width: 100%;
+            height: 100%;
+            background-color: red
+        }
+
+        .inspiration {
+            color: #000
+        }
+
+        a.anchor-link {
+            display: none;
+            width: 40px;
+            height: 40px;
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+            transition: all .5s;
+            cursor: pointer
+        }
+
+        a.anchor-link.show {
+            display: inline-block
+        }
+
+        a.anchor-link img {
+            transition: transform .2s linear
+        }
+
+        a.anchor-link img:hover {
+            transform: translateY(-10px)
+        }
+
+        @media (max-width: 768px) {
+            .heading {
+                text-align: left;
+                font-size: 1.5rem
+            }
+
+            .intro,
+            .background,
+            .skills,
+            .experience,
+            .projects,
+            .footer {
+                padding: 2rem;
+                grid-gap: 2rem
+            }
+
+            .intro {
+                padding: 4rem 2rem;
+                width: 100%;
+                font-size: 2rem;
+                min-height: 30rem
+            }
+
+            .intro__contact {
+                font-size: 1rem
+            }
+
+            .desc {
+                padding-left: 2rem;
+                font-size: 1.2rem
+            }
+
+            .skills__desc__category ul li,
+            .job__duration {
+                font-size: 1.1rem
+            }
+
+            .background,
+            .skills,
+            .experience,
+            .projects {
+                grid-template-columns: initial
+            }
+
+            .skills__desc {
+                grid-template-columns: repeat(3, 1fr)
+            }
+
+            .job__desc {
+                flex-direction: column;
+                align-items: flex-start
+            }
+
+            .footer {
+                flex-direction: column;
+                text-align: center;
+                margin-top: initial
+            }
+
+            .footer__developer {
+                flex-basis: 50px
+            }
+
+            .social-link {
+                margin-right: 1rem
+            }
+        }
+
+        @media (max-width: 480px) {
+            .heading {
+                text-align: left
+            }
+
+            .intro,
+            .background,
+            .skills,
+            .experience,
+            .projects,
+            .footer {
+                padding: 2rem;
+                grid-gap: 2rem
+            }
+
+            .intro {
+                padding: 4rem 2rem;
+                width: 100%;
+                font-size: 1.6rem;
+                background-color: #056ddc;
+                color: #fff;
+                clip-path: polygon(0 12%, 100% 0, 100% 88%, 0 100%)
+            }
+
+            .intro__contact {
+                font-size: 1rem
+            }
+
+            .intro__contact a {
+                color: #fff;
+                font-weight: 700
+            }
+
+            .desc {
+                padding-left: 2rem
+            }
+
+            .background,
+            .skills,
+            .experience,
+            .projects {
+                grid-template-columns: initial
+            }
+
+            .skills {
+                background-color: #056ddc;
+                color: #fff;
+                clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 96%)
+            }
+
+            .skills__heading,
+            .projects__heading {
+                color: #fff
+            }
+
+            .skills__desc {
+                grid-template-columns: 1fr
+            }
+
+            .projects {
+                background-color: #056ddc;
+                color: #fff;
+                clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%)
+            }
+
+            .project__tech>ul>li {
+                border: 1px solid #fff;
+                color: #fff
+            }
+
+            .job__desc {
+                flex-direction: column;
+                align-items: flex-start
+            }
+
+            .footer {
+                flex-direction: column;
+                text-align: center
+            }
+
+            .footer__developer {
+                flex-basis: 50px
+            }
+
+            .social-link {
+                margin-right: 1rem
+            }
+        }
     </style>
 </head>
 
@@ -30,7 +508,8 @@
                 Hello! <span class="wave wave-hand"></span>
             </div>
             <div class="intro__heading">
-                I'm <strong>Ankit Sharma</strong>, a design-oriented Web Developer focused on building beautiful interfaces & experiences.
+                I'm <strong>Ankit Sharma</strong>, a design-oriented Web Developer focused on building beautiful
+                interfaces & experiences.
             </div>
             <div class="intro__contact">
                 Get in touch <span class="pointer"></span>
@@ -51,17 +530,20 @@
                 </p>
 
                 <p>
-                    I design and code beautiful tiny things, and I am in love with what I do. My daily goal is to turn the client's vision of his dream website into reality. My goal is to always build
+                    I design and code beautiful tiny things, and I am in love with what I do. My daily goal is to turn
+                    the client's vision of his dream website into reality. My goal is to always build
                     applications that are scalable and efficient while
                     providing engaging, ROI focused user experiences.
                 </p>
 
                 <p>I recently won
-                    <a class="anchor" href="https://hacktoberfest.digitalocean.com/" rel="noreferrer" target="_blank">Hacktoberfest 2019</a>.</p>
+                    <a class="anchor" href="https://hacktoberfest.digitalocean.com/" rel="noreferrer"
+                        target="_blank">Hacktoberfest 2019</a>.</p>
 
                 <p>
                     <strong>When I'm not hitting the keyboard,</strong>, I'm
-                    probably listening to songs, humming and singing along or reading articles on <a   class="anchor" href="https://medium.com/">Medium</a>.
+                    probably listening to songs, humming and singing along or reading articles on <a class="anchor"
+                        href="https://medium.com/">Medium</a>.
                 </p>
             </div>
         </div>
@@ -170,7 +652,7 @@
 
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/covid19/">Covid-19 Tracker App</a>
+                        <a href="https://ankitsharmaongithub.github.io/covid19/">Covid-19 Tracker App</a>
                     </div>
                     <div class="project__desc"> An app showing data about Covid-19</div>
                     <div class="project__tech">
@@ -185,7 +667,7 @@
 
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/recipe_generator/">Recipe Generator</a>
+                        <a href="https://ankitsharmaongithub.github.io/recipe_generator/">Recipe Generator</a>
                     </div>
                     <div class="project__desc"> Random Recipe Generator using the Meal Db API </div>
                     <div class="project__tech">
@@ -201,7 +683,7 @@
 
                 <div class="project">
                     <div class="project__title">
-                    <a href="https://ankitsharmaongithub.github.io/DelivrLandingPage/">Delivr</a></div>
+                        <a href="https://ankitsharmaongithub.github.io/DelivrLandingPage/">Delivr</a></div>
                     <div class="project__desc"> Delivr App Landing Page</div>
                     <div class="project__tech">
                         <ul>
@@ -215,7 +697,8 @@
 
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/Insurance-Landing-Page/">Bello Insurance Landing Page</a>
+                        <a href="https://ankitsharmaongithub.github.io/Insurance-Landing-Page/">Bello Insurance Landing
+                            Page</a>
                     </div>
                     <div class="project__desc">Landing page for Bello Insurance</div>
                     <div class="project__tech">
@@ -228,7 +711,7 @@
 
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/Boat-Trail-Landing-Page/">Boat Trail</a></div>
+                        <a href="https://ankitsharmaongithub.github.io/Boat-Trail-Landing-Page/">Boat Trail</a></div>
                     <div class="project__desc"> Boat Trail Landing Page</div>
                     <div class="project__tech">
                         <ul>
@@ -242,9 +725,10 @@
 
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/PasswordGenerator/">Password Generator</a>
+                        <a href="https://ankitsharmaongithub.github.io/PasswordGenerator/">Password Generator</a>
                     </div>
-                    <div class="project__desc"> A Random Password Generator App using CSS and ES6. <span class="inspiration">Inspiration : Florin Pop.</span> But implemented it differently.</div>
+                    <div class="project__desc"> A Random Password Generator App using CSS and ES6. <span
+                            class="inspiration">Inspiration : Florin Pop.</span> But implemented it differently.</div>
                     <div class="project__tech">
                         <ul>
                             <li>html5</li>
@@ -258,7 +742,7 @@
                 <div class="project">
                     <div class="project__title">
                         <a href="https://ankitsharmaongithub.github.io/particles/">Particle Js</a></div>
-                    <div class="project__desc"> Animation created using  Particle.js</div>
+                    <div class="project__desc"> Animation created using Particle.js</div>
                     <div class="project__tech">
                         <ul>
                             <li>html5</li>
@@ -270,7 +754,7 @@
 
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/DiceGame/">Dicey</a></div>
+                        <a href="https://ankitsharmaongithub.github.io/DiceGame/">Dicey</a></div>
                     <div class="project__desc"> A dice game created using CSS & JS</div>
                     <div class="project__tech">
                         <ul>
@@ -283,8 +767,9 @@
 
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/LightningProject/">LightningProject</a></div>
-                    <div class="project__desc"> You are the God in this Project. And you can control the lightning and the enviroment.</div>
+                        <a href="https://ankitsharmaongithub.github.io/LightningProject/">LightningProject</a></div>
+                    <div class="project__desc"> You are the God in this Project. And you can control the lightning and
+                        the enviroment.</div>
                     <div class="project__tech">
                         <ul>
                             <li>html5</li>
@@ -298,7 +783,7 @@
 
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/css-transforms/">CSS Transformations</a></div>
+                        <a href="https://ankitsharmaongithub.github.io/css-transforms/">CSS Transformations</a></div>
                     <div class="project__desc"> A simple project for revising CSS Transformations</div>
                     <div class="project__tech">
                         <ul>
@@ -309,10 +794,10 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/Toggler/">Toggler</a>
+                        <a href="https://ankitsharmaongithub.github.io/Toggler/">Toggler</a>
                     </div>
                     <div class="project__desc"> Simple and Powerful Toggle Switch written in Pure JS & CSS.</div>
                     <div class="project__tech">
@@ -327,7 +812,7 @@
 
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/CSS-Cards-Animation/">CSS Cards</a></div>
+                        <a href="https://ankitsharmaongithub.github.io/CSS-Cards-Animation/">CSS Cards</a></div>
                     <div class="project__desc"> A simple project showing cards about me.</div>
                     <div class="project__tech">
                         <ul>
@@ -339,7 +824,7 @@
 
                 <div class="project">
                     <div class="project__title">
-                       <a href="https://ankitsharmaongithub.github.io/videoPlayer/
+                        <a href="https://ankitsharmaongithub.github.io/videoPlayer/
                        ">Video Player</a></div>
                     <div class="project__desc"> A simple video player in JavaScript</div>
                     <div class="project__tech">
@@ -353,17 +838,20 @@
             </div>
         </div>
 
-        <footer class="footer">
+        <footer class="footer bg-dark">
             <div class="footer__developer">
-                <h3>Design & Developed By Ankit Sharma</h3>
+                <p>Design & Developed By Ankit Sharma</p>
             </div>
 
             <div class="footer__links">
-                <a href="mailto:ankitsharma101299@gmail.com" class="anchor social-link">Email</a>
-                <a href="https://twitter.com/AnkitWebDev" class="anchor social-link">Twitter</a>
-                <a href="https://github.com/AnkitSharmaOnGithub/" class="anchor social-link">Github</a>
-                <a href="https://www.linkedin.com/in/ankit-sharma-8abb6710b" class="anchor social-link">LinkedIn</a>
+                <button href="mailto:ankitsharma101299@gmail.com" type="button" class="btn btn-danger">Email</button>
+                <button href="https://twitter.com/AnkitWebDev" type="button" class="btn btn-info">Twitter</button>
+                <button href="https://github.com/AnkitSharmaOnGithub/" type="button"
+                    class="btn btn-dark">Github</button>
+                <button href="https://www.linkedin.com/in/ankit-sharma-8abb6710b" type="button"
+                    class="btn btn-primary">LinkedIn</button>
             </div>
+
         </footer>
 
         <a class="anchor-link">
@@ -372,23 +860,32 @@
     </div>
 
     <script defer>
-        document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector("a.anchor-link"),o=document.querySelector(".intro");e.addEventListener("click",function(e){e.preventDefault(),window.scroll({behavior:"smooth",left:0,top:o.offsetTop})}),document.addEventListener("scroll",function(){window.scrollY>o.offsetHeight?e.classList.add("show"):e.classList.remove("show")})});
+        document.addEventListener("DOMContentLoaded", function () { var e = document.querySelector("a.anchor-link"), o = document.querySelector(".intro"); e.addEventListener("click", function (e) { e.preventDefault(), window.scroll({ behavior: "smooth", left: 0, top: o.offsetTop }) }), document.addEventListener("scroll", function () { window.scrollY > o.offsetHeight ? e.classList.add("show") : e.classList.remove("show") }) });
 
-        if('serviceWorker' in navigator){
-            navigator.serviceWorker.register('/Portfolio/sw.js', { scope : '/Portfolio/'})
-            .then(reg => {
-                if(reg.installing){
-                    console.log('Installing');
-                }
-                else if(reg.waiting){
-                    console.log('Installed');
-                }
-                if(reg.active){
-                    console.log('Activated');
-                }
-            })
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/Portfolio/sw.js', { scope: '/Portfolio/' })
+                .then(reg => {
+                    if (reg.installing) {
+                        console.log('Installing');
+                    }
+                    else if (reg.waiting) {
+                        console.log('Installed');
+                    }
+                    if (reg.active) {
+                        console.log('Activated');
+                    }
+                })
         }
     </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -242,7 +242,7 @@ a.anchor.resume_link:after {
 }
 
 .footer {
-  padding: 4rem 6rem;
+  padding: 0rem 2rem;
   margin-top: 8rem;
   display: flex;
   justify-content: space-between;
